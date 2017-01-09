@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2016"
+        ],
+        "module": "amd",
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "outFile": "build/lib.js",
+        "sourceMap": true,
+        "strictNullChecks": true,
+        "target": "ES2016"
+    },
+    "include": [
+        "*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "*.map"
+    ]
+}
